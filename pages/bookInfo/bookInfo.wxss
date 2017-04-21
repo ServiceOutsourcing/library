@@ -1,0 +1,63 @@
+.generalize{
+    height: 130px;
+    width: 100%;
+    background-color: #F8F8FF;
+    margin-top:5px;
+    margin-bottom:6px;    
+}
+
+.book_img{
+    float: left;
+    height: 90%;
+    width: 110px;
+    margin-left: 13px;
+    margin-right:15px;
+    position: relative;
+    top: 7px; 
+}
+
+.bookInfo{
+    font-family:"微软雅黑",serif;
+    font-size: 13px; 
+    position: relative;
+    top:6px;
+}
+
+.views{
+    margin-top:6px;
+    margin-bottom:6px;  
+}
+
+.tital{
+    background-color: #F8F8FF;
+    font-family: "微软雅黑",serif;
+    font-size: 17px; 
+    padding-left:6px;  
+}
+
+.initials{
+    height: 200px;
+}
+
+.function{
+    width: 100%;
+    position: fixed;
+    bottom: 0rpx;   
+    background-color: #F8F8FF; 
+}
+
+.borrow{
+    float:left;
+    width: 30%;
+    margin-left:10px; 
+    margin-bottom:5px; 
+
+}
+
+.reserve{
+    float:right;
+    width: 30%; 
+    margin-right:10px; 
+    margin-bottom:5px;
+}
+

@@ -1,0 +1,12 @@
+.message{
+    margin-top:20rpx; 
+    font-family: "微软雅黑",serif;
+    font-size:30rpx;
+    padding: 20rpx; 
+    background-color: #F8F8FF;
+}
+
+.title{
+    margin-bottom:20rpx; 
+}
+

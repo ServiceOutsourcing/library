@@ -1,0 +1,31 @@
+<view class="content" scrolly-y="true">
+    <view class="generalize" >
+        <image src="{{src}}" class="book_img"></image>
+        <view class="bookInfo">
+        <view>书名:</view>
+        <view>作者:</view>
+        <view>版本号:</view>
+        <view>藏书量:</view>
+        <view>可借数量:</view>
+        <view>索书号:</view>
+        <view>出版社:</view>
+        </view>
+    </view>
+
+    <view class="detail">
+    <block wx:for="{{array}}">
+        <view class="views">
+        <view class="initial">     
+            <view class="tital">{{item.title}}</view>
+            <view class="initials"></view>
+        </view>
+        </view>
+    </block>
+    </view>
+
+    <view class="function">
+        <button class="borrow" type="primary" bindtap="borrowf">借阅</button>
+
+        <button class="reserve" type="warn" bindtap="reservef">预约</button>
+    </view>
+</view>

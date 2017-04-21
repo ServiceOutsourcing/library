@@ -1,0 +1,11 @@
+<view class="messeage_content">
+    <view class="top">
+        <view class="title">{{title}}</view>
+        <view class="time">{{time}}</view>
+    </view>
+    <view class="main">
+        您所借阅的名为“{{book_name}}”的书籍请于{{return_time}}前归还。
+    </view>
+    
+
+</view>

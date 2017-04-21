@@ -1,0 +1,8 @@
+<view class="scan_content">
+    <navigator url="">
+    <button>从相册选择</button>
+    </navigator>
+    <navigator url="">
+    <button>扫码</button>
+    </navigator>
+</view>

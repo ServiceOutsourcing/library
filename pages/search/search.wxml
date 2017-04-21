@@ -1,0 +1,31 @@
+<view class="content">
+  <view class="top">
+    <view class="search">
+      <form>
+        <view class="search_input">
+          <input placeholder="请输入检索内容" focus="true" />
+        </view>
+        <icon type="search" bindtap="toast" class="sub" color="#FFB6C1" />
+        <view class="classes">
+          <view class="name" style="background:{{cone}}" bindtap="one">书名</view>
+          <view class="name" style="background:{{ctwo}}" bindtap="two">ISBN</view>
+          <view class="name" style="background:{{cthree}}" bindtap="three">作者</view>
+          <view class="name" style="background:{{cfour}}" bindtap="four">关键词</view>
+        </view>
+       </form>
+      </view>
+    </view>
+    <view class="bottom">
+      <view class="title">热门搜索</view>
+      <view class="line"></view>
+      <view class="hot">
+        <view class="hot_one" bindtap="toast">东野圭吾</view>
+        <view class="hot_two" bindtap="toast">C++</view>
+        <view class="hot_three" bindtap="toast">时间简史</view>
+        <view class="hot_four" bindtap="toast">悬疑小说</view>
+        <view class="hot_five" bindtap="toast">JAVA</view>
+        <view class="hot_six" bindtap="toast">古典文学</view>
+        <view class="hot_seven" bindtap="toast">量子力学</view>
+      </view>
+    </view>
+  </view>

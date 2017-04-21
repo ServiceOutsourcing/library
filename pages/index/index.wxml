@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class="page">
+  <view class="page_1">
+    <view class="Button Button1" >
+      <navigator url="../search/search">
+       <text class="text">搜索</text>
+      </navigator>
+    </view>
+    <view class="Button Button2">
+      <navigator url="../classify/classify">
+        <text class="text">分类导航</text>
+      </navigator>
+    </view>
+  </view>
+  <view class="recommend">
+    <text size="20">为你推荐</text>
+    <icon type="cancel" size="20"/>
+  </view>
+  <view class="book-list" bindtap="toast">
+        <view class="book-image">
+          <image src="../../img/book1.jpeg" mode="aspectFit"></image>
+        </view>
+        <view class="book-info">
+          <view class="book-info-style">
+            <view>书名:Java编程思想\n</view>
+            <view>作者:Bruce Eckel\n</view>
+            <view>价格:¥108\n</view>
+            <view>出版信息:机械工业出版社\n</view>
+            <view>可借数量:1\n</view>
+          </view>
+        </view>
+  </view>
+</view>

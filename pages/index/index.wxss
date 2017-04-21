@@ -1,0 +1,92 @@
+/**index.wxss**/
+.page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.page_1{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.Button{
+  /*margin-top: 20rpx;*/
+  /*float:left;*/
+  height: 200rpx;
+  line-height: 200rpx;
+  width: 45%;
+  text-align:center;
+  background-color: #00BFFF;
+  border-radius:10rpx;
+}
+.Button1{
+  margin-left: 3.3%;
+  margin-right: 3.3%;
+}
+.Button2{
+  margin-right: 3.3%;
+}
+.text{
+  font-size: 20;
+  color: #fff;
+}
+
+.recommend{
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  background-color: #eeeeee;
+  /*border-radius: 10rpx;*/
+}
+.book-list {
+  display: flex;
+  width: 93.3%;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  margin-top: 20rpx;
+  background-color: #eeeeee;
+  border-radius: 10rpx;
+}
+
+.book-image {
+  flex: 0 0 32%;
+  box-sizing: border-box;
+  min-height: 242rpx;
+}
+
+.book-image image {
+  height: 242rpx;
+  width: 242rpx;
+}
+
+.book-info {
+  background-color: #eeeeee;
+  flex: 0 0 66%;
+  box-sizing: border-box;
+  height: 242rpx;
+  /*margin-left: 20rpx;
+  margin-right: 20rpx;*/
+}
+
+.book-info-style {
+  border-radius: 10rpx;
+  height: 240rpx;
+  background-color: #eeeeee;
+}
+
+.book-info-style view {
+  /*border-radius: 10rpx;*/
+  display: block;
+  font-size: 30rpx;
+  margin-bottom: 8rpx;
+  width: 460rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: 8rpx;
+}

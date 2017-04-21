@@ -1,0 +1,8 @@
+<view class="message_content">
+    <block wx:for="{{array}}">
+        <view class="message" bindtap="click">
+            <view class="title">{{item.title}}</view>
+            <view class="time">{{item.time}}</view>
+        </view>
+    </block>
+</view>

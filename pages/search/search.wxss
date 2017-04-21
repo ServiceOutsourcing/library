@@ -1,0 +1,129 @@
+.top{
+    height: 200rpx;
+    background-color: #DDD; 
+}
+
+.search_input{
+    background-color: white;
+    float: left;
+    position: relative;
+    top: 40rpx;
+    left: 100rpx;
+    font-family: "微软雅黑",serif;
+    font-size: 30rpx;
+    width: 65%;
+    border: 1rpx solid black;
+}
+
+/*.submit{
+    float: right;
+    width: 80rpx;
+    height: 60rpx;
+    position: relative;
+    top: 38rpx;
+    right: 100rpx;
+    font-size: 26rpx;
+}*/
+
+.sub{
+    position: relative;
+    top: 47rpx;
+    left: 118rpx;
+    color: wheat;
+}
+
+.classes{
+    clear: both;
+    position: relative;
+    top: 60rpx;
+    left: 100rpx;
+    height: 45rpx;
+    line-height: 45rpx;
+}
+
+.name{
+    float: left;
+    width: 135rpx;
+    /*height: 45rpx; */
+    border: 1rpx solid deepskyblue;
+    font-family: "微软雅黑",serif;
+    font-size: 30rpx;
+    text-align: center;
+    
+}
+
+.title{
+    font-family: "微软雅黑",serif;
+    text-align: center;
+    font-size:27rpx;
+    color: deepskyblue;
+    line-height: 60rpx;
+    height: 60rpx; 
+}
+
+.line{
+    width: 100%;
+    border: 1rpx solid lightgray;
+}
+
+.hot{
+    font-family:"微软雅黑",serif; 
+}
+
+.hot_one{
+    color: lawngreen;
+    position: relative;
+    top: 20rpx;
+    text-align: center;
+}
+
+.hot_two{
+    color: purple;
+    font-size: 60rpx;
+    float: left;
+    position: relative;
+    left: 150rpx;
+    top: 30rpx;
+}
+
+.hot_three{
+    color: sandybrown;
+    font-size: 30rpx;
+    position:relative;
+    left: 270rpx;
+    top: 40rpx; 
+}
+
+.hot_four{
+    clear: both;
+    float: left;
+    color: deepskyblue;
+    font-size: 30rpx;
+    position: relative;
+    left: 290rpx;
+    top: 40rpx;
+}
+
+.hot_five{
+    clear: both;
+    color: orangered;
+    font-size: 60rpx;
+    position: relative;
+    left: 480rpx;
+    bottom: 10rpx;
+}
+
+.hot_six{
+    color: palevioletred;
+    font-size: 40rpx;
+    position: relative;
+    left: 140rpx;
+    bottom: 40rpx;
+}
+
+.hot_seven{
+    position: relative;
+    text-align:center;
+    left: 10rpx;
+    color: blue;
+}

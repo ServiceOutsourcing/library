@@ -1,0 +1,26 @@
+<view class="test_content">
+  <navigator url="/pages/myBorrow/myBorrow">
+    <button>我的借阅</button>
+  </navigator>
+
+  <navigator url="/pages/borrowBlank/borrowBlank">
+    <button>借书栏</button>
+  </navigator>
+
+  <navigator url="/pages/history/history">
+    <button>借阅历史</button>
+  </navigator>
+
+  <navigator url="/pages/classify/classify">
+    <button>图书分类</button>
+  </navigator>
+
+  <navigator url="/pages/message/message">
+    <button>我的消息</button>
+  </navigator>
+
+  <navigator url="/pages/search/search">
+    <button>图书搜索</button>
+  </navigator>
+
+</view>
